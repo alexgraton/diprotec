@@ -1,0 +1,22 @@
+
+RewriteEngine on
+
+
+
+#Alterado em 03/09/2022 por Alex Graton a pedido do Bruno Silva para remover a extensão .php de alguns arquivos.
+RewriteRule ^(login)$ login.php [NC,L]
+RewriteRule ^(index)$ index.php [NC,L]
+RewriteRule ^(oportunidades)$ oportunidades.php [NC,L]
+RewriteRule ^(feedbacks)$ feedbacks.php [NC,L]
+RewriteRule ^(contatos)$ contatos.php [NC,L]
+RewriteRule ^(usuarios)$ usuarios.php [NC,L]
+RewriteRule ^(votacao)$ votacao.php [NC,L]
+RewriteRule ^(votar)$ votar.php [NC,L]
+RewriteRule ^(login)$ login.php [NC,L]
+RewriteRule ^(listaEleicoes)$ listaEleicoes.php [NC,L]
+RewriteRule ^(logout)$ logout.php [NC,L]
+RewriteRule ^(resultados)$ resultados.php [NC,L]
+RewriteRule ^(resultadoEleicoes)$ resultadoEleicoes.php [NC,L]
+RewriteRule ^(detalhesVinculosTransportadoras)$ detalhesVinculosTransportadoras.php [NC,L]
+RewriteRule ^(detalhesPlanos)$ detalhesPlanos.php [NC,L]
+
